@@ -1,0 +1,24 @@
+// option 1
+// npm init -> node file_name
+// const http = require('http');
+// let HOST = 3000;
+
+// const server = http.createServer((req, res) => {
+//     res.writeHead(200, {'Content-Type': 'text/plain'});
+//     res.end('Hello World!')
+// });
+
+// server.listen(HOST, '127.0.0.1', () => {
+//     console.log('Server is running on http://localhost:3000');
+// });
+
+// option 2
+// npm init -> npm i express -> node file_name
+// const express = require('express');
+// let HOST = 3000;
+
+// const app = express();
+
+// app.listen(HOST, () => {
+//     console.log('Server is running on http://localhost:3000');
+// });
